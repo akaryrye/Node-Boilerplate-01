@@ -1,8 +1,10 @@
 {{> nav}}
-<br>
-<p>You can pass data to your template like this:</p>
-<p>{{row01}} {{row02}}</p> 
-<p> "res.render("index", object);" passes an object to the template, and its properties are called, and rendered above.</p>
-<br>
-{{> content}}
+
+<div id="content" class="container blue-grey lighten-4 center-align">
+    <p>You can pass data to your template like this:</p>
+    <p>{{row01}} {{row02}}</p> 
+    <p> "res.render("index", object);" passes an object to the template, and its properties are called, and rendered above.</p>
+    {{> content}}
+</div>
+
 {{> footer}}
